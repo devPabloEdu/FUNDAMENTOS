@@ -7,6 +7,8 @@ function imprimirNomeGritado(obj) {
         console.log(obj.name.toUpperCase() + `!!!`)
     } catch (e) {
         tratarErrowLancar(e)
+    } finally {
+        console.log('final')
     }
 
 }
