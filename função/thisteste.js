@@ -6,3 +6,12 @@ const obj ={
 };
 
 obj.mostrarthus()
+
+
+const f3 = () => console.log(this === window);
+
+
+const teste = function (contextoatual){
+    console.log(this === contextoatual)
+};
+teste(global);
