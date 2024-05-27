@@ -1,11 +1,11 @@
 const obj ={
     nome: 'bob',
-    mostrarthus : function(){
+    mostrarthis : function(){
         console.log(this);
     }
 };
 
-obj.mostrarthus()
+obj.mostrarthis()
 
 
 const f3 = () => console.log(this === window);
