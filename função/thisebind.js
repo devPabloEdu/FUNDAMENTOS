@@ -20,8 +20,16 @@ const macaco = {
 }
 macaco.raça()
 
-const raça = macaco.raça
+
+var raça = macaco.raça
 raça()
 
 const macacodnv = macaco.raça.bind(macaco);
+macacodnv() ////fica fixo
+
+var raça = macaco.raça
+raça()
+
+macacodnv()
+raça()
 macacodnv()
